@@ -1,3 +1,5 @@
+the node_moduls package is required.
+
 There are two functions:
 1. getPlayer(): Shall return a list of participants that have joined so far. 
 2. join(): Player can enter his name and an integer between 1 and 20. The player with the highest number wins.
