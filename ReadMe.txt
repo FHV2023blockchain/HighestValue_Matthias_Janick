@@ -22,3 +22,6 @@ const abi = require("./build/contracts/FoxEnd.json");
 var join_instance = new web3.eth.Contract(abi['abi'],"CONTRACT ADDRESS")
 join_instance.methods.join('NAME', number).send({from: 'YOUR ADDRESS',value: web3.utils.toWei("0.02")})
 join_instance.methods.getPlayers().call()
+
+
+To start a newGame() you must exit and start new.. because the function isnt working for now :(
